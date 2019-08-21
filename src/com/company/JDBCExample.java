@@ -35,6 +35,8 @@ public class JDBCExample {
             e.printStackTrace();
         }finally{
             //finally block used to close resources
+
+            //adding the second comm
             try{
                 if(stmt!=null)
                     stmt.close();
